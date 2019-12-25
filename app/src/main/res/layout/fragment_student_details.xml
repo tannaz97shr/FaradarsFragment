@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:padding="4dp"
+        android:background="#d3d3d3"
+        android:layout_margin="8dp"
+        android:stretchColumns="*"
+        android:shrinkColumns="*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableRow
+            android:layout_margin="3dp"
+            android:background="#2ECCFA"
+            android:padding="6dp">
+            <TextView
+                android:text="id"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="#C8000000"/>
+            <TextView
+                android:id="@+id/tv_student_id"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:textColor="#C8000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="3dp"
+            android:background="#2EFEF7"
+            android:padding="6dp">
+            <TextView
+                android:text="name"
+                android:layout_weight="0.3"
+                android:textSize="16sp"
+                android:textColor="#C8000000"/>
+            <TextView
+                android:id="@+id/tv_student_name"
+                android:layout_weight="0.7"
+                android:textSize="16sp"
+                android:textColor="#C8000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="3dp"
+            android:background="#2ECCFA"
+            android:padding="6dp">
+            <TextView
+                android:text="score"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="#C8000000"/>
+            <TextView
+                android:id="@+id/tv_student_score"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:textColor="#C8000000"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
